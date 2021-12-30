@@ -1,0 +1,59 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* desecendant selector / combinator */
+header h1{
+    font-weight: 400;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+nav{
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+    width: 20rem;
+}
+/* class selector */
+.showcaseImg{
+    width: 95vw;
+}
+.container{
+    text-align: center;
+    margin-right: 2rem;
+}
+article{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center; /* align text horizontally */
+    align-items: center;  /* align text vertically */
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* pseudo classes */
+/* if we want to show hover effect on anchor tag */
+a:hover{
+    font-size: larger;
+    color: aqua;
+}
